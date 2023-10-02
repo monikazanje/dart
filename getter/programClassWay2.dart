@@ -1,9 +1,18 @@
-import "programway2.dart";
-void main(){
-  demo obj=new demo(10,"monika",1.3);
-  print(obj.getX);
-  print(obj.getName);
-  print(obj.getSal);
+class demo{
+  int? _x;
+  String? str;
+  double _sal;
 
+  demo(this._x,this.str,this._sal);
+
+  int? get getX{
+    return _x;
+  }
+  String?  get getName{
+    return str;
+  }
+  double? get getSal{
+    return _sal;
+  }
 
 }
