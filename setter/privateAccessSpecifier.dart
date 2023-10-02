@@ -16,6 +16,9 @@ void main(){
   obj.display();
 }
 
+//scope of private properties is also a scope of file thats why programmer can access the private properties within the file 
+//but outside the file its not allow thats why use setter or getter method
+
 //output:
 //10
 // monika
