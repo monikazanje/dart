@@ -22,3 +22,16 @@ void main(){
   print(count);
 
 }
+
+// output:
+// enter length of list
+// 6
+// elments of the list is
+// 10
+// 3
+// 5
+// 6
+// 4
+// 1
+// [10, 3, 5, 6, 4, 1]
+// 3
